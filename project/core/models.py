@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class TimeStampedModel(modles.Model):
+class TimeStampedModel(models.Model):
     created = models.DataTimeField(
             'criado em',
             auto_now_add=True,
