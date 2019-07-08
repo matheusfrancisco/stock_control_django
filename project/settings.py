@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     #myapps
     'project.core',
     'project.product',
+    'project.stock',
 ]
 
 MIDDLEWARE = [
